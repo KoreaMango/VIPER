@@ -51,5 +51,5 @@
 프로젝트뿐만 아니라 개발자의 전문성 수준에 가장 적합한 접근 방식을 결정하는 것은 경영진과 협력하여 개발 팀에 달려 있습니다. VIPER는 주니어 레벨 개발자들에게는 적합하지 않다. 일부 구성은 스위프트 프로그래밍 언어에 대한 더 많은 지식을 필요로 할 수 있다.
 
 ## REF 
-https://labs.brandi.co.kr/2018/02/21/kimjh.html
-https://www.pixelmatters.com/blog/tutorial-part-1-viper-design-pattern-what-when-why-and-how
+- https://labs.brandi.co.kr/2018/02/21/kimjh.html
+- https://www.pixelmatters.com/blog/tutorial-part-1-viper-design-pattern-what-when-why-and-how
