@@ -1,6 +1,7 @@
 # VIPER 
 ## 모습
-![05](https://user-images.githubusercontent.com/57595198/202849589-27383ad1-2755-4f5f-8fcb-6dcebe1b98c2.png)
+<img width="675" alt="스크린샷 2022-11-19 오후 8 56 37" src="https://user-images.githubusercontent.com/57595198/202849619-6ca953ae-714d-484b-8fcc-c971320eeb91.png">
+
 
 
 ## 설명
