@@ -49,6 +49,7 @@
 		044613892928ED1D0029C64F /* VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0446138D2928ED1D0029C64F /* VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERUITests.swift; sourceTree = "<group>"; };
 		0446138F2928ED1D0029C64F /* VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0446139C2928EDD70029C64F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		044613602928ED1C0029C64F = {
 			isa = PBXGroup;
 			children = (
+				0446139C2928EDD70029C64F /* README.md */,
 				0446136B2928ED1C0029C64F /* VIPER */,
 				044613822928ED1D0029C64F /* VIPERTests */,
 				0446138C2928ED1D0029C64F /* VIPERUITests */,
