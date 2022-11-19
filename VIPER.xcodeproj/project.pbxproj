@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0446136D2928ED1C0029C64F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446136C2928ED1C0029C64F /* AppDelegate.swift */; };
-		0446136F2928ED1C0029C64F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446136E2928ED1C0029C64F /* SceneDelegate.swift */; };
 		044613712928ED1C0029C64F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613702928ED1C0029C64F /* ViewController.swift */; };
 		044613742928ED1C0029C64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044613722928ED1C0029C64F /* Main.storyboard */; };
 		044613762928ED1D0029C64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044613752928ED1D0029C64F /* Assets.xcassets */; };
@@ -16,6 +15,13 @@
 		044613842928ED1D0029C64F /* VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613832928ED1D0029C64F /* VIPERTests.swift */; };
 		0446138E2928ED1D0029C64F /* VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446138D2928ED1D0029C64F /* VIPERUITests.swift */; };
 		044613902928ED1D0029C64F /* VIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446138F2928ED1D0029C64F /* VIPERUITestsLaunchTests.swift */; };
+		044613AD292917010029C64F /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613AC292917010029C64F /* Interactor.swift */; };
+		044613AF292917090029C64F /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613AE292917090029C64F /* Presenter.swift */; };
+		044613B1292917100029C64F /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613B0292917100029C64F /* Entity.swift */; };
+		044613B3292917210029C64F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613B2292917210029C64F /* Router.swift */; };
+		044613B629291A9C0029C64F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613B529291A9C0029C64F /* Network.swift */; };
+		044613B9292930D00029C64F /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044613B8292930D00029C64F /* Protocol.swift */; };
+		044613BC2929663A0029C64F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 044613BB2929663A0029C64F /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 /* Begin PBXFileReference section */
 		044613692928ED1C0029C64F /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0446136C2928ED1C0029C64F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0446136E2928ED1C0029C64F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		044613702928ED1C0029C64F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		044613732928ED1C0029C64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044613752928ED1D0029C64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +55,12 @@
 		0446138D2928ED1D0029C64F /* VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERUITests.swift; sourceTree = "<group>"; };
 		0446138F2928ED1D0029C64F /* VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0446139C2928EDD70029C64F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		044613AC292917010029C64F /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		044613AE292917090029C64F /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		044613B0292917100029C64F /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		044613B2292917210029C64F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		044613B529291A9C0029C64F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		044613B8292930D00029C64F /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044613BC2929663A0029C64F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +113,8 @@
 		0446136B2928ED1C0029C64F /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				0446139E292900D80029C64F /* Example */,
 				0446136C2928ED1C0029C64F /* AppDelegate.swift */,
-				0446136E2928ED1C0029C64F /* SceneDelegate.swift */,
-				044613702928ED1C0029C64F /* ViewController.swift */,
 				044613722928ED1C0029C64F /* Main.storyboard */,
 				044613752928ED1D0029C64F /* Assets.xcassets */,
 				044613772928ED1D0029C64F /* LaunchScreen.storyboard */,
@@ -129,6 +140,76 @@
 			path = VIPERUITests;
 			sourceTree = "<group>";
 		};
+		0446139E292900D80029C64F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				044613B7292930C50029C64F /* Protocol */,
+				044613B429291A8F0029C64F /* Network */,
+				044613A5292901F80029C64F /* View */,
+				044613A6292901FE0029C64F /* Interactor */,
+				044613A7292902080029C64F /* Presenter */,
+				044613A8292902130029C64F /* Entity */,
+				044613A9292902200029C64F /* Router */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		044613A5292901F80029C64F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044613702928ED1C0029C64F /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044613A6292901FE0029C64F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				044613AC292917010029C64F /* Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		044613A7292902080029C64F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				044613AE292917090029C64F /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		044613A8292902130029C64F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				044613B0292917100029C64F /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		044613A9292902200029C64F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				044613B2292917210029C64F /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		044613B429291A8F0029C64F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				044613B529291A9C0029C64F /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		044613B7292930C50029C64F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				044613B8292930D00029C64F /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +226,9 @@
 			dependencies = (
 			);
 			name = VIPER;
+			packageProductDependencies = (
+				044613BB2929663A0029C64F /* SnapKit */,
+			);
 			productName = VIPER;
 			productReference = 044613692928ED1C0029C64F /* VIPER.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +301,9 @@
 				Base,
 			);
 			mainGroup = 044613602928ED1C0029C64F;
+			packageReferences = (
+				044613BA2929663A0029C64F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0446136A2928ED1C0029C64F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044613B3292917210029C64F /* Router.swift in Sources */,
+				044613AF292917090029C64F /* Presenter.swift in Sources */,
+				044613B1292917100029C64F /* Entity.swift in Sources */,
 				044613712928ED1C0029C64F /* ViewController.swift in Sources */,
+				044613B629291A9C0029C64F /* Network.swift in Sources */,
+				044613B9292930D00029C64F /* Protocol.swift in Sources */,
+				044613AD292917010029C64F /* Interactor.swift in Sources */,
 				0446136D2928ED1C0029C64F /* AppDelegate.swift in Sources */,
-				0446136F2928ED1C0029C64F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +696,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		044613BA2929663A0029C64F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		044613BB2929663A0029C64F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 044613BA2929663A0029C64F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 044613612928ED1C0029C64F /* Project object */;
 }
